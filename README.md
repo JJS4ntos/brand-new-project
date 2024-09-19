@@ -31,12 +31,6 @@ Antes de começar, verifique se você possui as seguintes ferramentas instaladas
    DATABASE_URL="postgresql://user:password@localhost:5432/nome_do_banco"
    ```
 
-4. Execute as migrações do Prisma:
-
-   ```bash
-   npx prisma migrate dev --name init
-   ```
-
 ## Estrutura do Projeto
 
 A estrutura do projeto é organizada da seguinte forma:
